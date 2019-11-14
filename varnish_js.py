@@ -2,7 +2,6 @@ import json
 import ast
 import gc
 
-
 class process():
     def host(abc):
         host = str(abc["host"])
@@ -67,7 +66,7 @@ def main():
 #                fout.write("\n")
 #                       print (uri + "-" + str(e) + "-" + c.split("+")[0])
 #               print (user_agent)
-#client_IP.append(b)
+#       client_IP.append(b)
 #               Host.append(c)
 #        l = client_IP
 #       for team in [ele for ind, ele in enumerate(l,1) if ele not in l[ind:]]:
@@ -75,9 +74,5 @@ def main():
             except:
                 pass
         print (i)
-        data_f.close()
-
-        
-
+        data_f.close() 
 main()
-
